@@ -21,7 +21,7 @@ while True:
     onion_address = base64.b32encode(digest[:10]).decode().lower()
 
     # .onionドメインが特定の文字列を含むかチェック
-    if "su" in onion_address:
+    if "sumi" in onion_address:
         onion_address += ".onion"
         print("Onion Address:", onion_address)
         print("---------------------------")
